@@ -1,12 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import ButtonComponentMedium from "../../assets/svg/ButtonComponentMedium";
 import BackGround from "../../assets/images/BackGround.jpg";
-import KidsCoding from "../../assets/images/KidsCoding.png";
-import BgComponent from "../../assets/images/BgComponent.png";
-import { useNavigate } from "react-router-dom";
+import ButtonComponentSmall from "../../assets/svg/ButtonComponentSmall";
+import EducationCategoriesSvg from "../../assets/svg/EducationCategoriesSvg";
 
-const Home = () => {
+const EducationCategories = () => {
   const buttonsCss = "w-[306px] h-[81px] mt-6 mx-4 cursor-pointer ";
   const buttonNames = [
     "Ana Sayfa",
@@ -42,30 +42,30 @@ const Home = () => {
       </li>
     );
   });
-
   return (
     <div className="page-wrapper w-full  min-h-screen box-border">
-      <div className="page-content ">
+      <div className="page-content">
         <div className="categories relative w-full h-screen">
           <img
             src={BackGround}
             alt="BackgroundImage"
             className="z-0 absolute h-full w-full"
           />
-          <ul className="flex w-full font-bold text-xl font-antonio absolute justify-center items-center h-36 z-20">
+          <ul className="flex w-full font-bold text-xl absolute justify-center items-center h-36 z-20">
             {buttons}
           </ul>
-          <div className="images justify-end flex items-center relative z-10 w-full h-full ">
-            <img
-              src={KidsCoding}
-              alt="KidsCoding"
-              className="z-20 absolute right-80 bottom-8"
-            />
-            <img
-              src={BgComponent}
-              alt="BgComponent"
-              className="z-10 absolute bottom-0 right-40"
-            />
+        </div>
+
+        <EducationCategoriesSvg name="Temel Eğitim Bileşenleri" />
+        <div className=" categories h-screen w-full absolute top-0 my-auto box-border">
+          <div className="top-2/4 left-48 flex absolute -translate-y-5">
+            <ButtonComponentSmall name="Kodlama" />
+          </div>
+          <div className="top-2/4 left-1/2 -translate-x-[120px] -translate-y-5 flex absolute">
+            <ButtonComponentSmall name="Tasarım" />
+          </div>
+          <div className="top-2/4 left-3/4 translate-x-12 flex absolute -translate-y-5">
+            <ButtonComponentSmall name="Elektronik" />
           </div>
         </div>
       </div>
@@ -73,4 +73,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default EducationCategories;

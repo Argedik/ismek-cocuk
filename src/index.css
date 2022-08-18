@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,16 +7,32 @@
   html,
   body,
   #root {
-    @apply box-border;
+    @apply box-border font-asap relative m-0 p-0;
   }
 
   :root {
-    --color-primary: 70, 66, 75, 1;
-    --color-secondary: 93, 31, 206, 1;
+    --primary-color: 70, 66, 75, 1;
+    --secondary-color: 93, 31, 206, 1;
+    --text-primary-color: 70, 66, 75, 1;
+    --text-secondary-color: 70, 66, 75, 1;
   }
 
   * {
     margin: 0;
     box-sizing: border-box;
+  }
+  section {
+    @apply relative;
+  }
+
+  .container {
+    @apply w-full m-20 absolute top-0 left-0 flex flex-col text-black;
+  }
+
+  .info {
+    @apply my-6;
+  }
+  li {
+    @apply my-[41px] ml-8 flex items-center;
   }
 }
