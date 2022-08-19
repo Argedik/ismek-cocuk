@@ -5,7 +5,7 @@ import InfoPageImage from "../../assets/images/InfoPageImage.png";
 
 const Info = () => {
   return (
-    <section>
+    <section id="info">
       <img src={BackGround} alt="BackGround" />
       <div className="container bottom-0">
         <div className="">
@@ -14,7 +14,7 @@ const Info = () => {
         <div className="font-regular text-6xl -top-8 left-[716px] absolute">
           BİZ KİMİZ ?
         </div>
-        <div className="absolute top-24 left-24 w-full text-center">
+        <div className="absolute top-16 left-24 w-full text-center">
           <div className="text-4xl mx-auto w-9/12 ">
             Bilgi işlemsel düşünme, problem çözme becerilerini geliştirme ve 21
             yy becerilerini{" "}
@@ -24,7 +24,7 @@ const Info = () => {
             genç , dinamik, eğitim kuruluşuyuz.
           </div>
         </div>
-        <div className="absolute bottom-0 left-[400px] mx-auto ">
+        <div className="absolute bottom-16 left-[400px] mx-auto ">
           <img src={InfoPageImage} alt={"InfoPageImage"} />
         </div>
       </div>

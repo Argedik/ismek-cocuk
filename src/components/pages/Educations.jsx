@@ -1,11 +1,11 @@
 import React from "react";
 import BackGround from "../../assets/images/BackGround.jpg";
-import ButtonComponentLarge from "../../assets/svg/ButtonComponentLarge";
+import ButtonComponentLarge from "../shared/buttons/ButtonComponentLarge";
 import EducationPageImage from "../../assets/images/EducationPageImage.png";
 const Educations = () => {
   return (
     <>
-      <section>
+      <section id="educations">
         <img src={BackGround} alt="BackGround" />
         <div className="container  ">
           <div className="title">
@@ -176,7 +176,7 @@ const Educations = () => {
               </li>
             </ul>
           </div>
-          <div className="absolute -right-48 -bottom-44">
+          <div className="absolute -right-48 -bottom-16">
             <img src={EducationPageImage} alt="BackGround" />
           </div>
         </div>

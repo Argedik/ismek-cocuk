@@ -109,80 +109,80 @@ const EducationCategoriesSvg = (props) => {
         </svg>
       </div>
       {/* Alt metinlerin çizgileri */}
-      <div className="absolute left-[150px] top-2/3 -translate-y-11">
+      <div className="absolute left-[150px] top-2/3 -translate-y-11 translate-x-5">
         <svg
-          width="1310"
+          width="1282"
           height="264"
-          viewBox="0 0 1310 264"
+          viewBox="0 0 1282 264"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
           <line
-            x1="2.49512"
+            x1="2.4668"
             y1="1.5"
-            x2="2.49511"
+            x2="2.46679"
             y2="262.5"
-            stroke="url(#paint0_linear_216_140)"
-            strokeWidth="3"
-            strokeLinecap="round"
+            stroke="url(#paint0_linear_0_1)"
+            stroke-width="3"
+            stroke-linecap="round"
           />
           <line
-            x1="681.495"
-            y1="1.5"
-            x2="681.495"
-            y2="172.5"
-            stroke="url(#paint1_linear_216_140)"
-            strokeWidth="3"
-            strokeLinecap="round"
+            x1="641.499"
+            y1="5.5"
+            x2="641.499"
+            y2="176.5"
+            stroke="url(#paint1_linear_0_1)"
+            stroke-width="3"
+            stroke-linecap="round"
           />
           <line
-            x1="1308.5"
-            y1="1.5"
-            x2="1308.5"
-            y2="199.5"
-            stroke="url(#paint2_linear_216_140)"
-            strokeWidth="3"
-            strokeLinecap="round"
+            x1="1280.5"
+            y1="6.5"
+            x2="1280.5"
+            y2="204.5"
+            stroke="url(#paint2_linear_0_1)"
+            stroke-width="3"
+            stroke-linecap="round"
           />
           <defs>
             <linearGradient
-              id="paint0_linear_216_140"
-              x1="0.995111"
+              id="paint0_linear_0_1"
+              x1="0.966791"
               y1="132"
-              x2="-0.00488858"
+              x2="-0.0332089"
               y2="132"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#B53BA5" />
-              <stop offset="1" stopColor="#872DBD" />
+              <stop stop-color="#B53BA5" />
+              <stop offset="1" stop-color="#872DBD" />
             </linearGradient>
             <linearGradient
-              id="paint1_linear_216_140"
-              x1="679.995"
-              y1="87"
-              x2="678.995"
-              y2="87"
+              id="paint1_linear_0_1"
+              x1="639.999"
+              y1="91"
+              x2="638.999"
+              y2="91"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#B53BA5" />
-              <stop offset="1" stopColor="#872DBD" />
+              <stop stop-color="#B53BA5" />
+              <stop offset="1" stop-color="#872DBD" />
             </linearGradient>
             <linearGradient
-              id="paint2_linear_216_140"
-              x1="1307"
-              y1="100.5"
-              x2="1306"
-              y2="100.5"
+              id="paint2_linear_0_1"
+              x1="1279"
+              y1="105.5"
+              x2="1278"
+              y2="105.5"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#B53BA5" />
-              <stop offset="1" stopColor="#872DBD" />
+              <stop stop-color="#B53BA5" />
+              <stop offset="1" stop-color="#872DBD" />
             </linearGradient>
           </defs>
         </svg>
       </div>
       {/* Alt kısımdaki yazılar */}
-      <div className="absolute left-[150px] top-2/3 -translate-y-11">
+      <div className="absolute left-[150px] top-2/3 -translate-y-11 translate-x-3">
         <ul className="flex-col w-[310px] ">
           <li className="-my-1 ">
             <div className="left-[167px] top-2/3 text-xl">
@@ -203,7 +203,7 @@ const EducationCategoriesSvg = (props) => {
           </li>
         </ul>
       </div>
-      <div className="absolute left-1/3 top-2/3 -translate-y-11 translate-x-[189px]">
+      <div className="absolute left-1/3 top-2/3 -translate-y-11 translate-x-[172px] ">
         <ul className="flex-col w-[310px] ">
           <li className="-my-1 ">
             <div className="left-[167px] top-2/3 text-xl">

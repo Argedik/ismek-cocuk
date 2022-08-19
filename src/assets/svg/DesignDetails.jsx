@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonComponentSmall from "./ButtonComponentSmall";
+import ButtonComponentSmall from "../../components/shared/buttons/ButtonComponentSmall";
 
 const DesignDetails = ({ ...props }) => {
   return (

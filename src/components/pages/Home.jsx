@@ -1,6 +1,6 @@
 import React from "react";
 
-import ButtonComponentMedium from "../../assets/svg/ButtonComponentMedium";
+import ButtonComponentMedium from "../../components/shared/buttons/ButtonComponentMedium";
 import BackGround from "../../assets/images/BackGround.jpg";
 import KidsCoding from "../../assets/images/KidsCoding.png";
 import BgComponent from "../../assets/images/BgComponent.png";
@@ -44,7 +44,7 @@ const Home = () => {
   });
 
   return (
-    <div className="page-wrapper w-full  min-h-screen box-border">
+    <div className="page-wrapper w-full  min-h-screen box-border" id="home">
       <div className="page-content ">
         <div className="categories relative w-full h-screen">
           <img

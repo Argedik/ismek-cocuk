@@ -18,7 +18,7 @@ const CodingPage = () => {
     image: CodingPageImage,
   };
   return (
-    <section className="relative">
+    <section className="relative" id="coding">
       <img src={BackGround} alt="BackGround" />
       <div className="page-wrapper w-full min-h-screen box-border absolute top-0 z-0">
         <div className="page-content">

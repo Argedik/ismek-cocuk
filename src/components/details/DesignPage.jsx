@@ -18,7 +18,7 @@ const DesignPage = () => {
     image: DesignPageImage,
   };
   return (
-    <section className="relative">
+    <section className="relative" id="design">
       <img src={BackGround} alt="BackGround" />
       <div className="page-wrapper w-full  h-full box-border">
         <div className="page-content">

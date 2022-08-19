@@ -6,16 +6,15 @@ import EducationForKidsPageDots from "../../assets/svg/EducationForKidsPageDots"
 const EducationForKids = () => {
   return (
     <>
-      <section className="relative">
+      <section className="relative" id="educationForKids">
         <img src={BackGround} alt="BackGround" />
         <div className="container bottom-0 flex-row items-end">
-          <div className="absolute left-0 -translate-x-6">
+          <div className="absolute left-0 -translate-x-12 -translate-y-16">
             <img
               src={EdicationForKidsPageImage}
               alt="EdicationForKidsPageImage"
             />
           </div>
-
           <div className="title absolute text-5xl top-0 -right-56">
             Eğitim Sürecinin{" "}
             <span className="font-bold ">Öğrenciye Katkıları</span>

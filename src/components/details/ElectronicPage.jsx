@@ -25,7 +25,7 @@ const ElectronicPage = () => {
     image: ElectronicPageImage,
   };
   return (
-    <section className="relative">
+    <section className="relative" id="electronic">
       <img src={BackGround} alt="BackGround" />
       <div className="page-wrapper w-full  h-full box-border">
         <div className="page-content">

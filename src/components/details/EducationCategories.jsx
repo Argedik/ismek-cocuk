@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import ButtonComponentMedium from "../../assets/svg/ButtonComponentMedium";
+import ButtonComponentMedium from "../../components/shared/buttons/ButtonComponentMedium";
 import BackGround from "../../assets/images/BackGround.jpg";
-import ButtonComponentSmall from "../../assets/svg/ButtonComponentSmall";
+import ButtonComponentSmall from "../../components/shared/buttons/ButtonComponentSmall";
 import EducationCategoriesSvg from "../../assets/svg/EducationCategoriesSvg";
 
 const EducationCategories = () => {
@@ -43,7 +43,10 @@ const EducationCategories = () => {
     );
   });
   return (
-    <div className="page-wrapper w-full  min-h-screen box-border">
+    <div
+      className="page-wrapper w-full  min-h-screen box-border"
+      id="educationCategories"
+    >
       <div className="page-content">
         <div className="categories relative w-full h-screen">
           <img
@@ -57,14 +60,15 @@ const EducationCategories = () => {
         </div>
 
         <EducationCategoriesSvg name="Temel Eğitim Bileşenleri" />
+
         <div className=" categories h-screen w-full absolute top-0 my-auto box-border">
-          <div className="top-2/4 left-48 flex absolute -translate-y-5">
+          <div className="top-2/4 left-52 flex absolute -translate-y-5">
             <ButtonComponentSmall name="Kodlama" />
           </div>
-          <div className="top-2/4 left-1/2 -translate-x-[120px] -translate-y-5 flex absolute">
+          <div className="top-2/4 left-1/2 -translate-x-24 -translate-y-5 flex absolute">
             <ButtonComponentSmall name="Tasarım" />
           </div>
-          <div className="top-2/4 left-3/4 translate-x-12 flex absolute -translate-y-5">
+          <div className="top-2/4 left-3/4 translate-x-16 flex absolute -translate-y-5">
             <ButtonComponentSmall name="Elektronik" />
           </div>
         </div>

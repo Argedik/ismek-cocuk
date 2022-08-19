@@ -1,11 +1,13 @@
 import "./index.css";
 import { Routes, Route } from "react-router-dom";
-import Main from "./components/pages/main";
-import DetailsMain from "./components/details/Main";
+import Main from "./components/pages/Main";
+import DetailsMain from "./components/details/MainDetails";
+import FloatingButtons from "./components/shared/sliderMenu/FloatingButtons";
 
 function App() {
   return (
     <>
+      <FloatingButtons />
       <Routes>
         <Route path="/" element={<Main />}></Route>
         <Route path="/egitimler" element={<DetailsMain />}></Route>

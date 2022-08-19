@@ -1,5 +1,4 @@
 import React from "react";
-import FloatingButtons from "../shared/FloatingButtons";
 import About from "./About";
 import EducationForKids from "./EducationForKids";
 import Educations from "./Educations";
@@ -9,12 +8,15 @@ import Info from "./Info";
 const Main = () => {
   return (
     <>
-      <FloatingButtons />
-      <Home />
-      <Educations />
-      <EducationForKids />
-      <Info />
-      <About />
+      <div>
+        <div>
+          <Home />
+          <Educations />
+          <EducationForKids />
+          <Info />
+          <About />
+        </div>
+      </div>
     </>
   );
 };
